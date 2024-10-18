@@ -1,0 +1,34 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container to fill the entire screen */
+  .full-screen {
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Full-height for the sidebar and content columns */
+  .full-height {
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar customization */
+  .sidebar {
+    background-color: #f8f9fa; /* Light gray background */
+    border-right: 1px solid #dee2e6; /* Optional border */
+  }
+  
+  .nav-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    background-color: #ddd;
+    color: #000;
+  }
